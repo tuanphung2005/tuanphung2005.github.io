@@ -1,3 +1,8 @@
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,darkblue,indigo);
+}
 
 #text3d {
 color: #131313;
