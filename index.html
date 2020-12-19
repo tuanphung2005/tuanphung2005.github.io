@@ -460,14 +460,7 @@
 
 
 <script>
-        soundManager.onready(function() {
-        soundManager.createSound({
-            id: 'mySound',
-            url: '/data/music.mp3'
-        });
-
-        
-        soundManager.play('mySound');
-    });
+        var audio = new Audio('/data/music.mp3');
+audio.play();
 </script>
 </body></html>
