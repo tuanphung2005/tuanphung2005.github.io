@@ -459,5 +459,15 @@
 
 
 
+<script>
+        soundManager.onready(function() {
+        soundManager.createSound({
+            id: 'mySound',
+            url: '/data/music.mp3'
+        });
 
+        
+        soundManager.play('mySound');
+    });
+</script>
 </body></html>
