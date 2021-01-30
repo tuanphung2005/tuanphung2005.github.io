@@ -42,7 +42,7 @@ video.addEventListener("playing", () => {
     };
 
     new faceapi.draw.DrawTextField(
-      [`${faceapi.utils.round(interpolatedAge, 0)} years`],
+      [`${faceapi.utils.round(interpolatedAge, 0)} tuổi`],
       bottomRight
     ).draw(canvas);
   }, 100);
